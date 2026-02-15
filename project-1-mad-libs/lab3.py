@@ -6,3 +6,5 @@
 - Class: Software Engineering
 - Description: Ask for first and last name and greet user by their full name.
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+fullName = input("what is your full name?\n")
+print("\nHello",fullName.strip().title()+"!")
